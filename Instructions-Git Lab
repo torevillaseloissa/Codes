@@ -1,0 +1,78 @@
+C:\Users\201510762\Desktop\git\PortableGit>git clone https://gitlab.com/torevillaseloissa/cpedstrucl-e21.git
+Cloning into 'cpedstrucl-e21'...
+Username for 'https://gitlab.com': torevillaseloissa
+Password for 'https://torevillaseloissa@gitlab.com':
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+
+C:\Users\201510762\Desktop\git\PortableGit>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BE28-A51F
+
+ Directory of C:\Users\201510762\Desktop\git\PortableGit
+
+01/26/2017  07:45 AM    <DIR>          .
+01/26/2017  07:45 AM    <DIR>          ..
+01/26/2017  07:50 AM    <DIR>          bin
+01/26/2017  07:50 AM    <DIR>          cmd
+01/26/2017  07:58 AM    <DIR>          cpedstrucl-e21
+01/26/2017  07:46 AM    <DIR>          dev
+01/26/2017  07:51 AM    <DIR>          etc
+02/23/2016  08:37 PM           140,288 git-bash.exe
+02/23/2016  08:37 PM           139,776 git-cmd.exe
+01/26/2017  07:46 AM    <DIR>          mingw32
+12/01/2015  04:20 AM             3,743 README.portable
+01/26/2017  07:45 AM    <DIR>          tmp
+01/26/2017  07:46 AM    <DIR>          usr
+               3 File(s)        287,903 bytes
+              10 Dir(s)  67,902,263,296 bytes free
+
+C:\Users\201510762\Desktop\git\PortableGit>cd cpedstrucl-e21
+C:\Users\201510762\Desktop\git\PortableGit\cpedstrucl-e21>touch me
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\201510762\Desktop\git\PortableGit\cpedstrucl-e21>echo 201510762 >>
+The syntax of the command is incorrect.
+
+C:\Users\201510762\Desktop\git\PortableGit\cpedstrucl-e21>echo 201510762 >> readme.md
+
+C:\Users\201510762\Desktop\git\PortableGit\cpedstrucl-e21>git commit -m "Creates readme.md"
+On branch master
+
+Initial commit
+
+Untracked files:
+        readme.md
+
+nothing added to commit but untracked files present
+C:\Users\201510762\Desktop\git\PortableGit\cpedstrucl-e21>git add readme.md
+
+C:\Users\201510762\Desktop\git\PortableGit\cpedstrucl-e21>git commit -m "Creates readme.md"
+[master (root-commit) ca3a2f9] Creates readme.md
+ Committer: ELOISSA TOREVILLAS <201510762@fit.edu.ph>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+
+C:\Users\201510762\Desktop\git\PortableGit\cpedstrucl-e21>git push -u origin master
+Username for 'https://gitlab.com': torevillaseloissa
+Password for 'https://torevillaseloissa@gitlab.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 240 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://gitlab.com/torevillaseloissa/cpedstrucl-e21.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\201510762\Desktop\git\PortableGit\cpedstrucl-e21>git add readme.md
