@@ -1,0 +1,17 @@
+//To push
+git add filename
+git commit -m "short description ng ginawa mo"
+git pull origin master
+git push origin master
+//To pull sira stuff
+esc
+:wq!
+
+//If conflict (both modified)
+Fix
+git add filename
+git status
+git commit
+:wq!
+git status
+git push origin master
